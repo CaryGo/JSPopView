@@ -32,8 +32,8 @@ typedef NS_ENUM(NSInteger, JSPopViewDirection) {
  *
  *  @param dataArray 数据源
  *  @param origin    原点坐标
- *  @param width     tableView的宽
- *  @param height    tableView高度
+ *  @param width     tableView 行的宽
+ *  @param height    tableView 行高度
  *  @param direction 箭头方向
  *
  *  @return

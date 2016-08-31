@@ -13,6 +13,8 @@
 #define LeftToView 10.f
 #define TopToView 10.f
 
+#define js_maxheight 200.0f
+
 @interface JSPopView () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -42,10 +44,11 @@
         if (height <= 0) {
             height = 44;
         }
+        CGFloat tableH = height*_dataArray.count>js_maxheight?js_maxheight:height*_dataArray.count;
         if (direction == JSPopViewDirectionLeft) {
-            self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(origin.x, origin.y, width, height * _dataArray.count) style:UITableViewStylePlain];
+            self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(origin.x, origin.y, width, tableH) style:UITableViewStylePlain];
         }else {
-            self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(origin.x, origin.y, -width, height * _dataArray.count) style:UITableViewStylePlain];
+            self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(origin.x, origin.y, -width, tableH) style:UITableViewStylePlain];
         }
         
         _tableView.separatorColor = [UIColor colorWithWhite:0.3 alpha:1];
