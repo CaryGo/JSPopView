@@ -16,6 +16,7 @@
 		18C0C4441D40B3D700C968FF /* JSPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C4431D40B3D700C968FF /* JSPopViewTests.m */; };
 		18C0C44F1D40B3D700C968FF /* JSPopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C44E1D40B3D700C968FF /* JSPopViewUITests.m */; };
 		18C0C4671D40C9FC00C968FF /* JSPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C4641D40C9FC00C968FF /* JSPopView.m */; };
+		D90DBB4E1D76B1A2009E4D15 /* JSPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90DBB4D1D76B1A2009E4D15 /* JSPopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		18C0C4501D40B3D700C968FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C0C4631D40C9FC00C968FF /* JSPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPopView.h; sourceTree = "<group>"; };
 		18C0C4641D40C9FC00C968FF /* JSPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPopView.m; sourceTree = "<group>"; };
+		D90DBB4C1D76B1A2009E4D15 /* JSPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPopViewController.h; sourceTree = "<group>"; };
+		D90DBB4D1D76B1A2009E4D15 /* JSPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				18C0C42D1D40B3D700C968FF /* AppDelegate.m */,
 				18C0C42F1D40B3D700C968FF /* ViewController.h */,
 				18C0C4301D40B3D700C968FF /* ViewController.m */,
+				D90DBB4C1D76B1A2009E4D15 /* JSPopViewController.h */,
+				D90DBB4D1D76B1A2009E4D15 /* JSPopViewController.m */,
 				18C0C4321D40B3D700C968FF /* Main.storyboard */,
 				18C0C4351D40B3D700C968FF /* Assets.xcassets */,
 				18C0C4371D40B3D700C968FF /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 			files = (
 				18C0C4311D40B3D700C968FF /* ViewController.m in Sources */,
 				18C0C4671D40C9FC00C968FF /* JSPopView.m in Sources */,
+				D90DBB4E1D76B1A2009E4D15 /* JSPopViewController.m in Sources */,
 				18C0C42E1D40B3D700C968FF /* AppDelegate.m in Sources */,
 				18C0C42B1D40B3D700C968FF /* main.m in Sources */,
 			);
